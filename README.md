@@ -19,6 +19,7 @@ LSTM  | # | # | # | # | #
 
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
+* Matlab (My test version is "R2016b 64-bit")
 * Tensorflow (my test version: 1.4.0)
 * Anaconda3 (Contains Python3.5+)
 
