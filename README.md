@@ -4,12 +4,13 @@ The progress made in multitalker mixed speech separation and recognition, often 
 <img width="75%" height="75%" src="spectrogram.PNG"/>
 
 ## Model Summary
-Deep Leaning Method |  SDR | SAR | SIR | STOI | PESQ 
+DL Method |  SDR | SAR | SIR | STOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: |
 BLSTM | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
 LSTM  | BLSTM_2 | (?, 500, 60)  | (?, 500, 40) 
 
-"?" represents the number of samples.<br> 
+* Explanation:
+DL: Deep Learning
 
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
