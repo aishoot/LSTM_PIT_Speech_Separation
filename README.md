@@ -23,7 +23,7 @@ LSTM  | # | # | # | # | #
 * Tensorflow (my test version: 1.4.0)
 * Anaconda3 (Contains Python3.5+ and so on)
 
-## Usage
+## Usage Process
 ### Generate Mixed and Target Speech:
 When you have WSJ0 data, you can use this code [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip) to create the mixed speech. We will use 2-speaker mixed audio with samplerate 8000 by default.
 
@@ -61,6 +61,14 @@ storage/
         ├── 050a050a_1.7521_422c020j_-1.7521.tfrecords
         ├── ...
         └── 447o0312_2.0302_440c0206_-2.0302.tfrecords
+```
+Note: {tr,cv,tt}_wav.lst is like as follows:
+```
+447o030v_0.1232_050c0109_-0.1232.wav
+447o030v_1.7882_444o0310_-1.7882.wav
+...
+447o030x_0.98832_441o0308_-0.98832.wav
+447o030x_1.4783_422o030p_-1.4783.wav
 ```
 2. Train the deep learning neural network.
 3. Decode the network to generate separation results.
