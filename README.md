@@ -24,7 +24,11 @@ LSTM  | # | # | # | # | #
 * Anaconda3 (Contains Python3.5+ and so on)
 
 ## Usage
-Run the command line script:
+#### Prepare training data
+The file structure of training data is as follows:
+
+
+#### Run the command line script:
 ```bash
 bash run.sh
 ```
