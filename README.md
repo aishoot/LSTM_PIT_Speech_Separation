@@ -9,8 +9,11 @@ DL Method |  SDR | SAR | SIR | STOI | PESQ
 BLSTM | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
 LSTM  | BLSTM_2 | (?, 500, 60)  | (?, 500, 40) 
 
-* Explanation:
-DL: Deep Learning
+* DL: Deep Learning
+* SDR: signal-to-distortion
+* SAR: signal-to-artifact
+* SIR: signal-to-interference
+* STOI: 
 
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
