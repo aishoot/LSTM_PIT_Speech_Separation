@@ -27,7 +27,7 @@ Run the command line script:
 ```
 bash run.sh
 ```
-which contain three steps:
+which contains three steps:
 1. Extract STFT features, and convert them to the tfrecords format of Tensorflow.
 2. Train the deep learning neural network.
 3. Decode the network to generate separation results.
@@ -37,7 +37,7 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 * __Paper__: Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation.
 * __Authors__: Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen
 * __Published__: [ICASSP 2017](https://ieeexplore.ieee.org/document/7952154/) (5-9 March 2017)
-* __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation)
+* __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation), [IOA-HCCL/pit-speech-separation](https://github.com/IOA-HCCL/pit-speech-separation)
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
 * __Create Mixed Speech Method__: Please click here - [create_speaker_mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip).
 
