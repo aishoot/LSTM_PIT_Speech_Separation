@@ -27,22 +27,26 @@ LSTM  | # | # | # | # | #
 #### Prepare training data
 The file structure of training data is as follows:
 ```
-project
-│ - README.md
-│ - file001.txt    
-│
-│ - folder1
-│   │ - file011.txt
-│   │ - file012.txt
-│   │
-│   └───subfolder1
-│       │ - file111.txt
-│       │ - file112.txt
-│       │ - ...
-│   
-└───folder2
-    │ - file021.txt
-    │ - file022.txt
+│   │   │   │   │   │   │   │   ├── tests
+│   │   │   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   │   │   ├── __init__.cpython-36.pyc
+│   │   │   │   │   │   │   │   │   │   ├── test_mle.cpython-36.pyc
+│   │   │   │   │   │   │   │   │   │   └── test_utils.cpython-36.pyc
+│   │   │   │   │   │   │   │   │   ├── test_mle.py
+│   │   │   │   │   │   │   │   │   └── test_utils.py
+│   │   │   │   │   │   │   │   └── utils.py
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── core.cpython-36.pyc
+│   │   │   │   │   │   │   │   └── __init__.cpython-36.pyc
+│   │   │   │   │   │   │   └── tests
+│   │   │   │   │   │   │       ├── __init__.py
+│   │   │   │   │   │   │       ├── __pycache__
+│   │   │   │   │   │   │       │   ├── __init__.cpython-36.pyc
+│   │   │   │   │   │   │       │   └── test_lombscargle.cpython-36.pyc
+│   │   │   │   │   │   │       └── test_lombscargle.py
+
 ```
 haha
 ```
