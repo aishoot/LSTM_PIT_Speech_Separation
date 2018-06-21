@@ -14,7 +14,7 @@ LSTM  | # | # | # | # | #
   * SDR: Source to Distortion Ratio
   * SAR: Source to Artifact Ratio
   * SIR: Source to Interference Ratio
-  * [STOI](http://cas.et.tudelft.nl/pubs/Taal2010.pdf): Short-time Objective Intelligibility Measure
+  * [STOI](http://cas.et.tudelft.nl/pubs/Taal2010.pdf): Short Time Objective Intelligibility Measure
   * [PESQ](https://ieeexplore.ieee.org/document/941023/): Perceptual Evaluation of Speech Quality
 
 ## Dependency Library
