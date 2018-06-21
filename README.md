@@ -3,7 +3,7 @@ The progress made in multitalker mixed speech separation and recognition, often 
 
 <img width="75%" height="75%" src="spectrogram.PNG"/>
 
-## Model Summary
+## Speration Performance
 DL Method |  SDR | SAR | SIR | STOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: |
 BLSTM | 0 | 0 | 0 | 0 | 0
