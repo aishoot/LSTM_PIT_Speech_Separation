@@ -24,8 +24,8 @@ LSTM  | # | # | # | # | #
 * Anaconda3 (Contains Python3.5+ and so on)
 
 ## Usage
-
-
+### Generate Mixed and Target Speech:
+When you have WSJ0 data, you can use this code [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip) to create the mixed speech. We will use 2-speaker mixed audio with samplerate 8000 by default.
 
 ### Run the command line script:
 ```bash
