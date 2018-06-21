@@ -44,6 +44,23 @@ project
     │ - file021.txt
     │ - file022.txt
 ```
+haha
+```
+storage/
+├── lists
+│   ├── cv_tf.lst
+│   ├── cv_wav.lst
+│   ├── tr_tf.lst
+│   ├── tr_wav.lst
+│   ├── tt_tf.lst
+│   └── tt_wav.lst
+├── separated
+├── TFCheckpoint
+└── tfrecords
+    ├── cv_tfrecord
+    ├── tr_tfrecord
+    └── tt_tfrecord
+```
 
 #### Run the command line script:
 ```bash
