@@ -70,6 +70,14 @@ Note: {tr,cv,tt}_wav.lst is like as follows:
 447o030x_0.98832_441o0308_-0.98832.wav
 447o030x_1.4783_422o030p_-1.4783.wav
 ```
+And {tr,cv,tt}_tf.lst is like as follows:
+```
+storage/tfrecords/cv_tfrecord/011o031b_1.8_206a010u_-1.8.tfrecords
+storage/tfrecords/cv_tfrecord/20ec0109_0.47371_020c020q_-0.47371.tfrecords
+...
+storage/tfrecords/cv_tfrecord/01zo030l_0.6242_40ho030s_-0.6242.tfrecords
+storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
+```
 2. Train the deep learning neural network.
 3. Decode the network to generate separation results.
 
