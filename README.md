@@ -23,6 +23,7 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 
 ## Usage
 Run the command line script:
+Script to generate the multi-speaker dataset using WSJ0. 
 ```
 
 ```
@@ -34,7 +35,7 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 * __Published__: [ICASSP 2017](https://ieeexplore.ieee.org/document/7952154/) (5-9 March 2017)
 * __Code__: https://github.com/faroit/CountNet
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
-* __Create Mixed Speech Method__:Script to generate the multi-speaker dataset using WSJ0. Please click here - [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip).
+* __Create Mixed Speech Method__: Please click here - [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip).
 
 ## Follow-up Work
 I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
