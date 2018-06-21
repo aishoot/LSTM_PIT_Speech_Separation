@@ -25,7 +25,7 @@ LSTM  | # | # | # | # | #
 
 ## Usage
 Run the command line script:
-```
+```bash
 bash run.sh
 ```
 which contains three steps:
