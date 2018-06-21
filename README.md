@@ -49,14 +49,17 @@ storage/
     ├── cv_tfrecord
     │   ├── 01aa010k_1.3053_01po0310_-1.3053.tfrecords
     │   ├── 01aa010p_0.93798_02bo0311_-0.93798.tfrecords
+    │   ├── ...
     │   └── 409o0317_1.2437_025c0217_-1.2437.tfrecords
     ├── tr_tfrecord
     │   ├── 01aa010b_0.97482_209a010p_-0.97482.tfrecords
     │   ├── 01aa010b_1.4476_20aa010p_-1.4476.tfrecords
+    │   ├── ...
     │   └── 409o0316_1.3942_20oo010p_-1.3942.tfrecords
     └── tt_tfrecord
         ├── 050a050a_0.032494_446o030v_-0.032494.tfrecords
         ├── 050a050a_1.7521_422c020j_-1.7521.tfrecords
+        ├── ...
         └── 447o0312_2.0302_440c0206_-2.0302.tfrecords
 ```
 2. Train the deep learning neural network.
