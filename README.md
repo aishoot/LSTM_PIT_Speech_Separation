@@ -26,6 +26,7 @@ LSTM  | # | # | # | # | #
 ## Usage
 #### Prepare training data
 The file structure of training data is as follows:
+.
 +-- _config.yml
 +-- _drafts
 |   +-- begin-with-the-crazy-ideas.textile
