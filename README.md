@@ -6,8 +6,8 @@ The progress made in multitalker mixed speech separation and recognition, often 
 ## Speration Performance
 DL Method |  SDR | SAR | SIR | STOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: |
-BLSTM | 0 | 0 | 0 | 0 | 0
-LSTM  | 0 | 0 | 0 | 0 | 0
+BLSTM | # | # | # | # | #
+LSTM  | # | # | # | # | #
 
 * DL: Deep Learning
 * Speech Speration Performance Evaluation Method:
