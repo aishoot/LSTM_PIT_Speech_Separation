@@ -24,7 +24,6 @@ LSTM  | 0 | 0 | 0 | 0 | 0
 
 ## Usage
 Run the command line script:
-Script to generate the multi-speaker dataset using WSJ0. 
 ```
 
 ```
@@ -39,4 +38,4 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 * __Create Mixed Speech Method__: Please click here - [create_speaker_mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip).
 
 ## Follow-up Work
-I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
+I will study on speech separation for a long time. You can pay close attention to my recent study if interested.
