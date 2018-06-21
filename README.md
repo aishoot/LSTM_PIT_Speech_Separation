@@ -1,8 +1,6 @@
 # LSTM_PIT_Speech_Separation
-Speech Separation with LSTM/BLSTM by Permutation Invariant Training method.
+Despite the significant progress made in dictating single-speaker speech in the recent years, the progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive.  Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for automatic computing systems, especially when only a single microphone recording of the mixed-speech is available.
 
-# Concurrent Speakers Counter
-Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.<br><br>
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
 ## Model Summary
