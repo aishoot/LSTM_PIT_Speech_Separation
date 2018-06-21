@@ -11,11 +11,11 @@ LSTM  | BLSTM_2 | (?, 500, 60)  | (?, 500, 40)
 
 * DL: Deep Learning
 * Speech Speration Performance Evaluation Method:
-  * SDR: signal-to-distortion
-  * SAR: signal-to-artifact
-  * SIR: signal-to-interference
-  * [STOI](): Short-time Objective Intelligibility Measure
-  * [PESQ](): Perceptual Evaluation of Speech Quality
+  * SDR: Source to Distortion Ratio
+  * SAR: Source to Artifact Ratio
+  * SIR: Source to Interference Ratio
+  * [STOI](http://cas.et.tudelft.nl/pubs/Taal2010.pdf): Short-time Objective Intelligibility Measure
+  * [PESQ](https://ieeexplore.ieee.org/document/941023/): Perceptual Evaluation of Speech Quality
 
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
