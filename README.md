@@ -26,7 +26,11 @@ LSTM  | # | # | # | # | #
 ## Usage
 #### Prepare training data
 The file structure of training data is as follows:
-
+>数据结构
+>>树
+>>>二叉树
+>>>>平衡二叉树
+>>>>>满二叉树
 
 #### Run the command line script:
 ```bash
