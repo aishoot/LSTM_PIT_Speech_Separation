@@ -79,7 +79,7 @@ storage/tfrecords/cv_tfrecord/01zo030l_0.6242_40ho030s_-0.6242.tfrecords
 storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 ```
 2. Train the deep learning neural network.
-3. Decode the network to generate separation results.
+3. Decode the network to generate separation audios.
 
 ## Reference Paper & Code
 I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for sharing their code.
