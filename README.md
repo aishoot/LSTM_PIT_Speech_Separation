@@ -24,20 +24,17 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 ## Usage
 Run the command line script:
 ```
-python predict_speakers_count.py examples/5_speakers.wav
+
 ```
-or run the file "predict_speakers_count.ipynb" in proper sequence.
 
 ## Reference Paper & Code
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1216072.svg)](https://doi.org/10.5281/zenodo.1216072)<br>
-As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which helps me a lot.*
-* __Homepage__: [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet)
-* __Title__: Classification vs. Regression in Supervised Learning for Single Channel
- Speaker Count Estimation
-* __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël A. P. Habets
-* __Published__: ICASSP2018 (Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada)
+I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for sharing their code.
+* __Paper__: Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation.
+* __Authors__: Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen
+* __Published__: [ICASSP 2017](https://ieeexplore.ieee.org/document/7952154/) (5-9 March 2017)
 * __Code__: https://github.com/faroit/CountNet
-* __Dataset__: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
+* __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
+* __Create Mixed Speech Method__:Script to generate the multi-speaker dataset using WSJ0. Please click here - [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip).
 
 ## Follow-up Work
 I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
