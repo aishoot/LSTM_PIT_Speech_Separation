@@ -24,9 +24,16 @@ LSTM  | # | # | # | # | #
 * Anaconda3 (Contains Python3.5+ and so on)
 
 ## Usage
-#### Prepare training data
-The file structure of training data is as follows:
-haha
+
+
+
+### Run the command line script:
+```bash
+bash run.sh
+```
+which contains three steps:
+1. Extract STFT features, and convert them to the tfrecords format of Tensorflow.
+The training data is ready here. The file structure of training data is now as follows:
 ```
 storage/
 ├── lists
@@ -52,13 +59,6 @@ storage/
         ├── 050a050a_1.7521_422c020j_-1.7521.tfrecords
         └── 447o0312_2.0302_440c0206_-2.0302.tfrecords
 ```
-
-#### Run the command line script:
-```bash
-bash run.sh
-```
-which contains three steps:
-1. Extract STFT features, and convert them to the tfrecords format of Tensorflow.
 2. Train the deep learning neural network.
 3. Decode the network to generate separation results.
 
