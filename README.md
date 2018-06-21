@@ -1,5 +1,5 @@
 # LSTM_PIT_Speech_Separation
-The progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive.  Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for automatic computing systems, especially when only a single microphone recording of the mixed-speech is available.
+The progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive.  Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for automatic computing systems, especially when only a single microphone recording the mixed-speech.
 
 <img width="75%" height="75%" src="spectrogram.PNG"/>
 
