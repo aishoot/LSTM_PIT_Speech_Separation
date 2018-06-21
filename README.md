@@ -25,8 +25,12 @@ LSTM  | 0 | 0 | 0 | 0 | 0
 ## Usage
 Run the command line script:
 ```
-
+bash run.sh
 ```
+which contain three steps:
+1. Extract STFT features, and convert them to the tfrecords format of Tensorflow.
+2. Train the deep learning neural network.
+3. Decode the network to generate separation results.
 
 ## Reference Paper & Code
 I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for sharing their code.
