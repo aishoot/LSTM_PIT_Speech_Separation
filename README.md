@@ -1,18 +1,13 @@
 # LSTM_PIT_Speech_Separation
-The progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive. Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for computing systems, especially when only a single microphone recording the mixed-speech.
+The progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive. Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for computers, especially when only a single microphone recording the mixed-speech.
 
 <img width="75%" height="75%" src="spectrogram.PNG"/>
 
 ## Model Summary
 Deep Leaning Method |  SDR | SAR | SIR | STOI | PESQ 
-:-: | :-: | :-: | :-: 
-the First Layer  | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
-the Second Layer | BLSTM_2 | (?, 500, 60)  | (?, 500, 40) 
-the Third Layer  | BLSTM_3 | (?, 500, 40)  | (?, 500, 80)
-the Fourth Layer | maxpooling1d | (?, 500, 80) | (?, 250, 80) 
-the Fifth Layer | flatten | (?, 250, 80) | (?, 20000) 
-the Sixth Layer | dense | (?, 20000) | (?, 11) 
-the Seventh Layer | activation | (?, 11) | (?, 11) 
+:-: | :-: | :-: | :-: | :-: | :-: |
+BLSTM | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
+LSTM  | BLSTM_2 | (?, 500, 60)  | (?, 500, 40) 
 
 "?" represents the number of samples.<br> 
 
