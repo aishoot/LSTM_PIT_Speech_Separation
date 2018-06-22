@@ -89,6 +89,7 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 * __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation)
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
 * __SDR/SAR/SIR Toolbox__: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
+* __STOI__ Toolbox: [stoi.zip](http://insy.ewi.tudelft.nl/sites/default/files/stoi.zip) + [actuallyaswin/stoi](https://github.com/actuallyaswin/stoi), [mpariente/pystoi](https://github.com/mpariente/pystoi)
 
 ## Follow-up Work
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
