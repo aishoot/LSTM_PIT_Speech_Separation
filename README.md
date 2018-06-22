@@ -6,8 +6,8 @@ The progress made in multitalker mixed speech separation and recognition, often 
 ## Speration Performance
 DL Method |  SDR | SAR | SIR | STOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: |
-BLSTM | # | # | # | # | #
-LSTM  | 6.453328 | # | # | # | #
+BLSTM | 9.177447 | 10.629142 | 16.116564 | # | #
+LSTM  | 6.453328 | 9.372059 | 11.570311 | # | #
 
 For SDR, results of the mixed audio of different sexes are as follows:
 
