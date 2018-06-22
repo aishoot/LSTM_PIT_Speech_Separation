@@ -9,12 +9,12 @@ DL Method |  SDR | SAR | SIR | STOI | PESQ
 BLSTM | # | # | # | # | #
 LSTM  | 6.453328 | # | # | # | #
 
+For SDR, results of the mixed audio of different sexes are as follows:
+
 DL Method |  Male & Female | Female & Female | Male & Male |
 :-: | :-: | :-: | :-: |
 BLSTM | # | # | # |
 LSTM  | 8.238905 | 3.538810 | 5.011563 |
-
-For SDR, results of the mixed audio of different sexes are as follows:<br>
 
 * DL: Deep Learning
 * Speech Speration Performance Evaluation Method:
