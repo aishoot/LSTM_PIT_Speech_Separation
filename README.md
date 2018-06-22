@@ -27,8 +27,8 @@ For **SIR**, results of the mixed audio of different sexes are as follows:
 
 DL Method |  Male & Female | Female & Female | Male & Male |
 :-: | :-: | :-: | :-: |
-BLSTM | 10.647645 | 7.309365 | 7.797448 |
-LSTM  | 8.238905 | 3.538810 | 5.011563 |
+BLSTM | 18.203052 | 13.355384 | 14.198003 |
+LSTM  | 14.531649 | 7.230494 | 9.000010|
 
 * DL: Deep Learning
 * Speech Speration Performance Evaluation Method:
