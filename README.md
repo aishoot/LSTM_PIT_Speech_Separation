@@ -30,6 +30,8 @@ DL Method |  Male & Female | Female & Female | Male & Male |
 BLSTM | 18.203052 | 13.355384 | 14.198003 |
 LSTM  | 14.531649 | 7.230494 | 9.000010|
 
+From the results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
+
 * DL: Deep Learning
 * Speech Speration Performance Evaluation Method:
   * SDR: Source to Distortion Ratio
