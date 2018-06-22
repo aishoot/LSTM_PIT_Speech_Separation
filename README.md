@@ -30,7 +30,7 @@ DL Method |  Male & Female | Female & Female | Male & Male |
 BLSTM | 18.203052 | 13.355384 | 14.198003 |
 LSTM  | 14.531649 | 7.230494 | 9.000010|
 
-From the results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
+From above results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
 
 * DL: Deep Learning
 * Speech Speration Performance Evaluation Method:
@@ -112,7 +112,7 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 * __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation)
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
 * __SDR/SAR/SIR Toolbox__: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
-* __STOI__ Toolbox: [stoi.zip](http://insy.ewi.tudelft.nl/sites/default/files/stoi.zip) + [actuallyaswin/stoi](https://github.com/actuallyaswin/stoi), [mpariente/pystoi](https://github.com/mpariente/pystoi)
+* __STOI__ Toolbox: [stoi.zip](http://www.ceestaal.nl/code/) + [actuallyaswin/stoi](https://github.com/actuallyaswin/stoi), [mpariente/pystoi](https://github.com/mpariente/pystoi)
 
 ## Follow-up Work
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
