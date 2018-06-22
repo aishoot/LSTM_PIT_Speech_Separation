@@ -9,7 +9,21 @@ DL Method |  SDR | SAR | SIR | STOI | PESQ
 BLSTM | 9.177447 | 10.629142 | 16.116564 | # | #
 LSTM  | 6.453328 | 9.372059 | 11.570311 | # | #
 
-For SDR, results of the mixed audio of different sexes are as follows:
+For **SDR**, results of the mixed audio of different sexes are as follows:
+
+DL Method |  Male & Female | Female & Female | Male & Male |
+:-: | :-: | :-: | :-: |
+BLSTM | 10.647645 | 7.309365 | 7.797448 |
+LSTM  | 8.238905 | 3.538810 | 5.011563 |
+
+For **SAR**, results of the mixed audio of different sexes are as follows:
+
+DL Method |  Male & Female | Female & Female | Male & Male |
+:-: | :-: | :-: | :-: |
+BLSTM | 11.691969 | 9.393608 | 9.589827 |
+LSTM  | 9.939668 | 8.134054 | 9.026763 |
+
+For **SIR**, results of the mixed audio of different sexes are as follows:
 
 DL Method |  Male & Female | Female & Female | Male & Male |
 :-: | :-: | :-: | :-: |
