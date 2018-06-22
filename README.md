@@ -112,7 +112,8 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 * __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation)
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
 * __SDR/SAR/SIR Toolbox__: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
-* __STOI__ Toolbox: [stoi.zip](http://insy.ewi.tudelft.nl/content/short-time-objective-intelligibility-measure) + [actuallyaswin/stoi](https://github.com/actuallyaswin/stoi), [mpariente/pystoi](https://github.com/mpariente/pystoi)
+* __STOI__ Toolbox: [stoi.zip](http://insy.ewi.tudelft.nl/content/short-time-objective-intelligibility-measure) + [actuallyaswin/stoi](https://github.com/actuallyaswin/stoi), [mpariente/pystoi](https://github.com/mpariente/pystoi); [Paper: A short-time objective intelligibility measure for time-frequency weighted noisy speech](https://ieeexplore.ieee.org/document/5495701/)
+* __ESTOI__: [Paper: An Algorithm for Predicting the Intelligibility of Speech Masked by Modulated Noise Maskers](https://ieeexplore.ieee.org/document/7539284/)
 
 ## Follow-up Work
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
