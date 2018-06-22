@@ -13,7 +13,7 @@ For SDR, results of the mixed audio of different sexes are as follows:
 
 DL Method |  Male & Female | Female & Female | Male & Male |
 :-: | :-: | :-: | :-: |
-BLSTM | # | # | # |
+BLSTM | 10.647645 | 7.309365 | 7.797448 |
 LSTM  | 8.238905 | 3.538810 | 5.011563 |
 
 * DL: Deep Learning
