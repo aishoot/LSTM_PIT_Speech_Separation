@@ -123,4 +123,4 @@ I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for shari
 ## Follow-up Work
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
 
-** The program will be uploaded one day in the future!**
+** The program will be uploaded one day in the future! You can fork this repository. **
