@@ -37,8 +37,8 @@ From above results we can see that the separation effect of mixed gender audio i
   * SDR: Source to Distortion Ratio
   * SAR: Source to Artifact Ratio
   * SIR: Source to Interference Ratio
-  * [STOI](http://cas.et.tudelft.nl/pubs/Taal2010.pdf): Short Time Objective Intelligibility Measure
-  * [PESQ](https://ieeexplore.ieee.org/document/941023/): Perceptual Evaluation of Speech Quality
+  * STOI: Short Time Objective Intelligibility Measure
+  * PESQ: Perceptual Evaluation of Speech Quality
 
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
