@@ -9,7 +9,7 @@ DL Method |  SDR | SAR | SIR | STOI | PESQ
 BLSTM | # | # | # | # | #
 LSTM  | 6.453328 | # | # | # | #
 
-For SDR, results of the mixed audio of different sexes are as follows:
+For SDR, results of the mixed audio of different sexes are as follows:<br>
 DL Method |  Male & Female | Female & Female | Male & Male |
 :-: | :-: | :-: | :-: |
 BLSTM | # | # | # |
