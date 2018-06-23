@@ -4,10 +4,27 @@ The progress made in multitalker mixed speech separation and recognition, often 
 <img width="75%" height="75%" src="spectrogram.PNG"/>
 
 ## Speration Performance
-DL Method |  SDR | SAR | SIR | STOI | PESQ 
-:-: | :-: | :-: | :-: | :-: | :-: |
-BLSTM | 9.177447 | 10.629142 | 16.116564 | # | #
-LSTM  | 6.453328 | 9.372059 | 11.570311 | # | #
+For **LSTM**, results of the mixed audio with different gender are as follows:
+
+Gender Combination | SDR | SAR | SIR | STOI | STOI | PESQ 
+:-: | :-: | :-: | :-: | :-: | :-: | :-: |
+Overall| 9.177447 | 10.629142 | 16.116564 | # | # | #
+Male & Female | # | # | # | # | # | #
+Female & Female | # | # | # | # | # | #
+Male & Male | # | # | # | # | # | #
+
+For **BLSTM**, results of the mixed audio with different gender are as follows:
+
+Gender Combination | SDR | SAR | SIR | STOI | STOI | PESQ 
+:-: | :-: | :-: | :-: | :-: | :-: | :-: |
+Overall| 9.177447 | 10.629142 | 16.116564 | # | # | #
+Male & Female | # | # | # | # | # | #
+Female & Female | # | # | # | # | # | #
+Male & Male | # | # | # | # | # | #
+
+
+
+
 
 For **SDR**, results of the mixed audio of different sexes are as follows:
 
@@ -32,13 +49,11 @@ LSTM  | 14.531649 | 7.230494 | 9.000010|
 
 From above results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
 
-* DL: Deep Learning
-* Speech Speration Performance Evaluation Method:
-  * SDR: Source to Distortion Ratio
-  * SAR: Source to Artifact Ratio
-  * SIR: Source to Interference Ratio
-  * STOI: Short Time Objective Intelligibility Measure
-  * PESQ: Perceptual Evaluation of Speech Quality
+* SDR: Source to Distortion Ratio
+* SAR: Source to Artifact Ratio
+* SIR: Source to Interference Ratio
+* STOI: Short Time Objective Intelligibility Measure
+* PESQ: Perceptual Evaluation of Speech Quality
 
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
