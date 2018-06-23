@@ -8,44 +8,19 @@ For **LSTM**, results of the mixed audio with different gender are as follows:
 
 Gender Combination | SDR | SAR | SIR | STOI | STOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-Overall| 9.177447 | 10.629142 | 16.116564 | # | # | #
-Male & Female | # | # | # | # | # | #
-Female & Female | # | # | # | # | # | #
-Male & Male | # | # | # | # | # | #
+Overall| 6.453328 | 9.372059 | 11.570311 | # | # | #
+Male & Female | 8.238905 | 9.939668 | 14.531649 | # | # | #
+Female & Female | 3.538810 | 8.134054 | 7.230494 | # | # | #
+Male & Male | 5.011563 | 9.026763 | 9.000010 | # | # | #
 
 For **BLSTM**, results of the mixed audio with different gender are as follows:
 
 Gender Combination | SDR | SAR | SIR | STOI | STOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 Overall| 9.177447 | 10.629142 | 16.116564 | # | # | #
-Male & Female | # | # | # | # | # | #
-Female & Female | # | # | # | # | # | #
-Male & Male | # | # | # | # | # | #
-
-
-
-
-
-For **SDR**, results of the mixed audio of different sexes are as follows:
-
-DL Method |  Male & Female | Female & Female | Male & Male |
-:-: | :-: | :-: | :-: |
-BLSTM | 10.647645 | 7.309365 | 7.797448 |
-LSTM  | 8.238905 | 3.538810 | 5.011563 |
-
-For **SAR**, results of the mixed audio of different sexes are as follows:
-
-DL Method |  Male & Female | Female & Female | Male & Male |
-:-: | :-: | :-: | :-: |
-BLSTM | 11.691969 | 9.393608 | 9.589827 |
-LSTM  | 9.939668 | 8.134054 | 9.026763 |
-
-For **SIR**, results of the mixed audio of different sexes are as follows:
-
-DL Method |  Male & Female | Female & Female | Male & Male |
-:-: | :-: | :-: | :-: |
-BLSTM | 18.203052 | 13.355384 | 14.198003 |
-LSTM  | 14.531649 | 7.230494 | 9.000010|
+Male & Female | 10.647645 | 11.691969 | 18.203052 | # | # | #
+Female & Female | 7.309365 | 9.393608 | 13.355384 | # | # | #
+Male & Male | 7.797448 | 9.589827 | 14.198003 | # | # | #
 
 From above results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
 
