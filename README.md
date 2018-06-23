@@ -24,10 +24,11 @@ Male & Male | 7.797448 | 9.589827 | 14.198003 | # | # | #
 
 From above results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
 
-* SDR: Source to Distortion Ratio
-* SAR: Source to Artifact Ratio
-* SIR: Source to Interference Ratio
+* SDR: Signal to Distortion Ratio
+* SAR: Signal to Artifact Ratio
+* SIR: Signal to Interference Ratio
 * STOI: Short Time Objective Intelligibility Measure
+* ESTOI: Extended Short Time Objective Intelligibility Measure
 * PESQ: Perceptual Evaluation of Speech Quality
 
 ## Dependency Library
