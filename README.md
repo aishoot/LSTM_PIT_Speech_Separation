@@ -9,9 +9,9 @@ For **LSTM**, results of the mixed audio with different gender are as follows:
 Gender Combination | SDR | SAR | SIR | STOI | ESTOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 Overall| 6.453328 | 9.372059 | 11.570311 | 0.536987 | 0.429255 | 1.653391
-Male & Female | 8.238905 | 9.939668 | 14.531649 | # | # | #
-Female & Female | 3.538810 | 8.134054 | 7.230494 | # | # | #
-Male & Male | 5.011563 | 9.026763 | 9.000010 | # | # | #
+Male & Female | 8.238905 | 9.939668 | 14.531649 | 0.521656 | 0.421868 | 1.663442
+Female & Female | 3.538810 | 8.134054 | 7.230494 | 0.560099 | 0.441704 | 1.553452
+Male & Male | 5.011563 | 9.026763 | 9.000010 | 0.550071 | 0.435083 | 1.675609
 
 For **BLSTM**, results of the mixed audio with different gender are as follows:
 
