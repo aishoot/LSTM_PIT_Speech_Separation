@@ -18,9 +18,9 @@ For **BLSTM**, results of the mixed audio with different gender are as follows:
 Gender Combination | SDR | SAR | SIR | STOI | ESTOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 Overall| 9.177447 | 10.629142 | 16.116564 | 0.473229 | 0.377204 | 1.651099
-Male & Female | 10.647645 | 11.691969 | 18.203052 | # | # | #
-Female & Female | 7.309365 | 9.393608 | 13.355384 | # | # | #
-Male & Male | 7.797448 | 9.589827 | 14.198003 | # | # | #
+Male & Female | 10.647645 | 11.691969 | 18.203052 | 0.488542 | 0.393999 | 1.731112
+Female & Female | 7.309365 | 9.393608 | 13.355384 | 0.459762 | 0.363213 | 1.478075
+Male & Male | 7.797448 | 9.589827 | 14.198003 | 0.456667 | 0.358757 | 1.602058
 
 From above results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
 
