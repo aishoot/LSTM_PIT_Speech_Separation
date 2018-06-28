@@ -96,11 +96,11 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 3. Decode the network to generate separation audios.
 
 ## Reference Paper & Code
-I'd like to thank Dong Yu et al for the paper and Sining Sun, Unisound for sharing their code.
+Thank Dong Yu et al for the paper and Sining Sun, Unisound for sharing their code.
 * __Paper__: Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation.
 * __Authors__: Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen
 * __Published__: [ICASSP 2017](https://ieeexplore.ieee.org/document/7952154/) (5-9 March 2017)
-* __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation)
+* __Code__: [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation), [funcwj/uPIT-for-speech-separation](https://github.com/funcwj/uPIT-for-speech-separation)
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a)
 * __SDR/SAR/SIR__
     * Toolbox: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
