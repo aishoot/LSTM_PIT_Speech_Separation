@@ -96,10 +96,11 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 3. Decode the network to generate separation audios.
 
 ## File Description
-* Unisound-SpeechSeparation: Speech separation implementation of Unisound but there is some code wrong.
-* create-speaker-mixtures: Scripts to generate the wsj0-mix multi-speaker dataset.
-* hjkwon0609-speech_separation: Speech separation implementation of hjkwon0609 but I can't reappearing source code because there is no experimental data.
-* step_to_CASA_DL: The first step to multi-speaker speech separation with Computational Auditory Scene Analysis and Deep Learning.
+* 1-create-speaker-mixtures-V1: Version one of scripts to generate the wsj0-mix multi-speaker dataset.
+* 2-create-speaker-mixtures-V2: Version two of scripts to generate the wsj0-mix multi-speaker dataset.
+* 3-step_to_CASA_DL: Step to multi-speaker speech separation with Computational Auditory Scene Analysis and Deep Learning.
+* 4-hjkwon0609-speech_separation: Speech separation implementation of hjkwon0609 but I can't reappearing source code because there is no experimental data.
+* 5-Unisound-SpeechSeparation: Speech separation implementation of Unisound but there is some code wrong.
 
 ## Reference Paper & Code
 Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing their code.
