@@ -112,6 +112,7 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
 * __SDR/SAR/SIR__
     * Toolbox: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [The PEASS Toolkit](http://bass-db.gforge.inria.fr/peass/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
     * Paper: [Performance measurement in blind audio source separation](https://ieeexplore.ieee.org/document/1643671/)
+* [WJ's blog](http://www.funcwj.cn/)
 
 ## Follow-up Work
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
