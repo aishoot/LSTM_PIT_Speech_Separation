@@ -112,6 +112,12 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
 * __SDR/SAR/SIR__
     * Toolbox: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [The PEASS Toolkit](http://bass-db.gforge.inria.fr/peass/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
     * Paper: [Performance measurement in blind audio source separation](https://ieeexplore.ieee.org/document/1643671/)
+* __STOI__
+    * Toolbox: [stoi.zip](http://insy.ewi.tudelft.nl/content/short-time-objective-intelligibility-measure)+[actuallyaswin/stoi](https://github.com/actuallyaswin/stoi), [mpariente/pystoi](https://github.com/mpariente/pystoi)
+    * Paper: [A short-time objective intelligibility measure for time-frequency weighted noisy speech](https://ieeexplore.ieee.org/document/5495701/)
+* __ESTOI__
+    * Toolbox: [estoi.m](http://kom.aau.dk/~jje/code/estoi.m)
+    * Paper: [An Algorithm for Predicting the Intelligibility of Speech Masked by Modulated Noise Maskers](https://ieeexplore.ieee.org/document/7539284/)
 * [WJ's blog](http://www.funcwj.cn/)
 
 ## Follow-up Work
