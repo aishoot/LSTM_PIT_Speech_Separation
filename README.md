@@ -118,6 +118,9 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
 * __ESTOI__
     * Toolbox: [estoi.m](http://kom.aau.dk/~jje/code/estoi.m)
     * Paper: [An Algorithm for Predicting the Intelligibility of Speech Masked by Modulated Noise Maskers](https://ieeexplore.ieee.org/document/7539284/)
+* __PESQ__
+    * Toolbox: [pesq.m](https://github.com/JacobD10/SoundZone_Tools/blob/master/pesq2.m), [MATLAB software-composite](http://ecs.utdallas.edu/loizou/speech/software.htm)
+    * Paper: [Perceptual evaluation of speech quality (PESQ)-a new method for speech quality assessment of telephone networks and codecs](https://ieeexplore.ieee.org/document/941023/)
 * [WJ's blog](http://www.funcwj.cn/)
 
 ## Follow-up Work
