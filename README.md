@@ -122,7 +122,6 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
 * __PESQ__
     * Toolbox: [pesq.m](https://github.com/JacobD10/SoundZone_Tools/blob/master/pesq2.m), [MATLAB software-composite](http://ecs.utdallas.edu/loizou/speech/software.htm)
     * Paper: [Perceptual evaluation of speech quality (PESQ)-a new method for speech quality assessment of telephone networks and codecs](https://ieeexplore.ieee.org/document/941023/)
-* [WJ's blog](http://www.funcwj.cn/)
 
 ## Follow-up Work
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
