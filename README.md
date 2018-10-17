@@ -123,7 +123,7 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
     * Toolbox: [pesq.m](https://github.com/JacobD10/SoundZone_Tools/blob/master/pesq2.m), [MATLAB software-composite](http://ecs.utdallas.edu/loizou/speech/software.htm)
     * Paper: [Perceptual evaluation of speech quality (PESQ)-a new method for speech quality assessment of telephone networks and codecs](https://ieeexplore.ieee.org/document/941023/)
 
-## Follow-up Work
+## Future Work for Speech Separation
 * Scaling down DNNs without compromising performance.
 * Multiple microphone algorithms.
 * Beyond single-modality algorithm, for example, visual perception.
