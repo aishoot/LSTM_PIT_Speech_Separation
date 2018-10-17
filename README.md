@@ -124,6 +124,12 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
     * Paper: [Perceptual evaluation of speech quality (PESQ)-a new method for speech quality assessment of telephone networks and codecs](https://ieeexplore.ieee.org/document/941023/)
 
 ## Follow-up Work
+* Scaling down DNNs without compromising performance.
+* Multiple microphone algorithms.
+* Beyond single-modality algorithm, for example, visual perception.
+* Beyond the Mean Squared Error Cost Function
+* Towards Time-Domain End-to-End system.
+
 I will study on speech separation for a long time. You can pay close attention to my recent work if interested.
 
 *My code will be uploaded one day! You can fork this repository.*
