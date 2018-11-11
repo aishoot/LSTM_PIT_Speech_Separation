@@ -43,7 +43,7 @@ From above results we can see that the separation effect of mixed gender audio i
 #### Generate Mixed and Target Speech:
 When you have WSJ0 data, you can use this code [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip) to create the mixed speech. We will use 2-speaker mixed audio with samplerate 8000 by default.
 
-#### 5. Run the command line script:
+#### Run the command line script:
 ```bash
 bash run.sh
 ```
@@ -97,14 +97,14 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 2. Train the deep learning neural network.
 3. Decode the network to generate separation audios.
 
-## 6. File Description
+## 5. File Description
 * 1-create-speaker-mixtures-V1: Version one of scripts to generate the wsj0-mix multi-speaker dataset.
 * 2-create-speaker-mixtures-V2: Version two of scripts to generate the wsj0-mix multi-speaker dataset.
 * 3-step_to_CASA_DL: Step to multi-speaker speech separation with Computational Auditory Scene Analysis and Deep Learning.
 * 4-hjkwon0609-speech_separation: Speech separation implementation of hjkwon0609 but I can't reappearing source code because there is no experimental data.
 * 5-Unisound-SpeechSeparation: Speech separation implementation of Unisound but there is some code wrong.
 
-## 7. Reference Paper & Code
+## 6. Reference Paper & Code
 Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing their code.
 * __Paper__: Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation.
 * __Authors__: Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen
@@ -124,7 +124,7 @@ Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing t
     * Toolbox: [pesq.m](https://github.com/JacobD10/SoundZone_Tools/blob/master/pesq2.m), [MATLAB software-composite](http://ecs.utdallas.edu/loizou/speech/software.htm)
     * Paper: [Perceptual evaluation of speech quality (PESQ)-a new method for speech quality assessment of telephone networks and codecs](https://ieeexplore.ieee.org/document/941023/)
 
-## 8. Directions of Future Research
+## 7. Directions of Future Research
 * Scaling down DNNs without compromising performance.
 * Multiple microphone algorithms.
 * Beyond single-modality algorithm, for example, visual perception.
