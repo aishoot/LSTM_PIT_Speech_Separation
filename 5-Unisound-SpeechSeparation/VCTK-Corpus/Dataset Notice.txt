@@ -1,6 +1,0 @@
-注意：
-1. 为减小project大小，VCTK-Corpus文件夹下只放了部分数据，完整数据可从官网下载
-2. VCTK数据集中wav48比txt多了p315文件夹，可以从Dataset Server.png看到
-
-
-VCTK数据下载官网：http://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html
