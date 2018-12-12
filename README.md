@@ -105,16 +105,20 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 * 4.introduction_to_mask
 
 **mixed speech**:
-<img width="60%" height="60%" src="4. introduction_to_mask/mixturesignals.png"/>
+
+<img width="40%" height="40%" src="4. introduction_to_mask/mixturesignals.png"/>
 
 **masks**:
-<img width="60%" height="60%" src="4. introduction_to_mask/masks.png"/>
+
+<img width="90%" height="90%" src="4. introduction_to_mask/masks.png"/>
 
 **recovered speech 1**:
-<img width="60%" height="60%" src="4. introduction_to_mask/recoverd1.png"/>
+
+<img width="50%" height="50%" src="4. introduction_to_mask/recoverd1.png"/>
 
 **recovered speech 2**:
-<img width="60%" height="60%" src="4. introduction_to_mask/recoverd2.png"/>
+
+<img width="50%" height="50%" src="4. introduction_to_mask/recoverd2.png"/>
 
 * 5.step_to_CASA_DL: Step to multi-speaker speech separation with Computational Auditory Scene Analysis and Deep Learning.
 * 6.separated_result_LSTM: Demos of separated speech based on LSTM and PIT.
