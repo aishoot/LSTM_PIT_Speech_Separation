@@ -1,4 +1,4 @@
-# LSTM/BLSTM based Permutation Invariant Training for Two Speakers
+# LSTM/BLSTM based PIT Training for Two Speakers
 The progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive. Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for computers, especially when only a single microphone recording the mixed-speech.
 
 <img width="75%" height="75%" src="spectrogram.PNG"/>
@@ -42,7 +42,7 @@ From above results we can see that the separation effect of mixed gender audio i
 
 ## 4. Usage Process
 #### Generate Mixed and Target Speech:
-When you have WSJ0 data, you can use this code [create-speaker-mixtures.zip](http://www.merl.com/demos/deep-clustering/create-speaker-mixtures.zip) to create the mixed speech. We will use 2-speaker mixed audio with samplerate 8000 by default.
+When you have WSJ0 data, you can use the code "create-speaker-mixtures-V1/V2" to create the mixed speech. We will use 2-speaker mixed audio with samplerate 8000 by default.
 
 #### Run the command line script:
 ```bash
