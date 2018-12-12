@@ -99,8 +99,8 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 3. Decode the network to generate separation audios.
 
 ## 5. File Description
-* 1.\ create-speaker-mixtures-V1: Version one of scripts to generate the wsj0-mix multi-speaker dataset.
-* 2.\ create-speaker-mixtures-V2: Version two of scripts to generate the wsj0-mix multi-speaker dataset.
+* 1.%20create-speaker-mixtures-V1: Version one of scripts to generate the wsj0-mix multi-speaker dataset.
+* 2.%20create-speaker-mixtures-V2: Version two of scripts to generate the wsj0-mix multi-speaker dataset.
 * 3.\ SPHFile2Wav: Converting SPH format of TIMIT and WSJ0 corpus into wav format.
 * 4.\ introduction_to_mask
 * 5.\ step_to_CASA_DL: Step to multi-speaker speech separation with Computational Auditory Scene Analysis and Deep Learning.
