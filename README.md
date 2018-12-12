@@ -106,7 +106,7 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 
 **mixed speech**:
 
-<img width="50%" height="50%" src="4. introduction_to_mask/mixturesignals.png"/>
+<img width="55%" height="55%" src="4. introduction_to_mask/mixturesignals.png"/>
 
 **masks**:
 
