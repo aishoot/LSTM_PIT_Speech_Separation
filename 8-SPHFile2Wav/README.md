@@ -5,6 +5,7 @@
 ## Usage
 ```python
 from sphfile import SPHFile
+
 sph =SPHFile('TEDLIUM_release2/test/sph/JamesCameron_2010.sph')
 # Note that the following loads the whole file into ram
 print( sph.format )
