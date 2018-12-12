@@ -101,15 +101,13 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 * 1-create-speaker-mixtures-V1: Version one of scripts to generate the wsj0-mix multi-speaker dataset.
 * 2-create-speaker-mixtures-V2: Version two of scripts to generate the wsj0-mix multi-speaker dataset.
 * 3-step_to_CASA_DL: Step to multi-speaker speech separation with Computational Auditory Scene Analysis and Deep Learning.
-* 4-hjkwon0609-speech_separation: Speech separation implementation of hjkwon0609 but I can't reappearing source code because there is no experimental data.
-* 5-Unisound-SpeechSeparation: Speech separation implementation of Unisound but there is some code wrong.
 
 ## 6. Reference Paper & Code
 Thank Dong Yu et al. for the paper and Sining Sun, Unisound et al. for sharing their code.
 * __Paper__: Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation.
 * __Authors__: Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen
 * __Published__: [ICASSP 2017](https://ieeexplore.ieee.org/document/7952154/) (5-9 March 2017)
-* __Code__: [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation), [hjkwon0609/speech_separation](https://github.com/hjkwon0609/speech_separation), [Training-Targets-for-Speech-Separation-Neural-Networks](https://github.com/jaideeppatel/Training-Targets-for-Speech-Separation-Neural-Networks), [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [MERL_Deep Clustering](http://www.merl.com/demos/deep-clustering), [mmaciej2/uPIT](https://github.com/mmaciej2/uPIT)
+* __Code__: [Unisound/SpeechSeparation](https://github.com/Unisound/SpeechSeparation)(some code wrong), [hjkwon0609/speech_separation](https://github.com/hjkwon0609/speech_separation)(can't reappearing source code because there is no experimental data.), [Training-Targets-for-Speech-Separation-Neural-Networks](https://github.com/jaideeppatel/Training-Targets-for-Speech-Separation-Neural-Networks), [snsun/pit-speech-separation](https://github.com/snsun/pit-speech-separation), [MERL_Deep Clustering](http://www.merl.com/demos/deep-clustering), [mmaciej2/uPIT](https://github.com/mmaciej2/uPIT)
 * __Dataset__: [WSJ0 data](https://catalog.ldc.upenn.edu/ldc93s6a), [VCTK-Corpus](http://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html)
 * __SDR/SAR/SIR__
     * Toolbox: [BSS Eval](http://bass-db.gforge.inria.fr/bss_eval/), [The PEASS Toolkit](http://bass-db.gforge.inria.fr/peass/), [craffel/mir_eval/separation.py](https://github.com/craffel/mir_eval/blob/master/mir_eval/separation.py)
