@@ -37,7 +37,7 @@ From above results we can see that the separation effect of mixed gender audio i
 * [librosa](https://librosa.github.io/)
 * Matlab (my test version: R2016b 64-bit)
 * Tensorflow (my test version: 1.4.0)
-* Anaconda3 (Contains Python3.5+)
+* Anaconda3 (Python3.5+)
 
 ## 4. Usage Process
 #### Generate Mixed and Target Speech:
