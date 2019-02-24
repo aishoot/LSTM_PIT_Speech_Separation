@@ -127,7 +127,7 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 * 7.separated_result_BLSTM: Demos of separated speech based on BLSTM and PIT.
 
 ## 6. Reference Paper & Code
-Thank Dong Yu et al. for the paper and Sining Sun et al. for sharing their code.
+Thank Dong Yu et al. for the paper and Sining Sun (Northwestern Polytechnical University, China) et al. for sharing their code.
 * __Paper__: Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation.
 * __Authors__: Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen
 * __Published__: [ICASSP 2017](https://ieeexplore.ieee.org/document/7952154/) (5-9 March 2017)
