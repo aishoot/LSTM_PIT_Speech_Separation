@@ -152,4 +152,4 @@ storage/tfrecords/cv_tfrecord/20fo0109_1.1429_017o030p_-1.1429.tfrecords
 * Beyond the Mean Squared Error Cost Function
 * Towards Time-Domain End-to-End system.
 
-*I will study on speech separation for a long time. You can pay close attention to my recent work and follow me or directly contact with me if interested. Thanks for your attention!*
+*I will study on speech separation for a long time. You can pay close attention to my recent work and follow me if interested. Thanks for your attention!*
