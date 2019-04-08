@@ -1,9 +1,10 @@
 # LSTM/BLSTM based PIT for Two Speakers
 ```
 ====================================================================================
-               Performance Measurement in Multi-speaker Separation
+                Two-speaker speech separation with BLSTM and PIT
                    Author: Chao Peng, EECS, Peking University
             Github: https://github.com/pchao6/LSTM_PIT_Speech_Separation
+                            Created on: June 2018
 ====================================================================================
 ```
 
