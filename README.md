@@ -1,10 +1,11 @@
 # LSTM/BLSTM based PIT for Two Speakers
-
-%====================================================================================
-%               Performance Measurement in Multi-speaker Separation
-%                   Author: Chao Peng, EECS, Peking University
-%            Github: https://github.com/pchao6/LSTM_PIT_Speech_Separation
-%====================================================================================
+```
+====================================================================================
+               Performance Measurement in Multi-speaker Separation
+                   Author: Chao Peng, EECS, Peking University
+            Github: https://github.com/pchao6/LSTM_PIT_Speech_Separation
+====================================================================================
+```
 
 The progress made in multitalker mixed speech separation and recognition, often referred to as the "cocktail-party problem", has been less impressive. Although human listeners can easily perceive separate sources in an acoustic mixture, the same task seems to be extremely difficult for computers, especially when only a single microphone recording the mixed-speech.
 
