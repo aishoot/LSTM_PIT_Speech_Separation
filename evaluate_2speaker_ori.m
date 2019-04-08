@@ -8,7 +8,6 @@ tic
 addpath('/usr/local/MATLAB/R2016b/toolbox/voicebox'); 
 addpath('PESQ');  %PESQ Toolbox According to ITU-T P.862;
 
-% 以下路径需要修改
 sample_rate = 8000;
 tt_wav_dir = 'SpeechSeparation/mix/data/2speakers_0dB/wav8k/min/tt';
 model_name = '2speakers_0dB_original';
@@ -31,7 +30,7 @@ error_num_PESQ = 0;
 
 for i = 3:len+2 
     name = lists(i).name;
-    part_name = name(1:end-4);  %去掉'.wav'
+    part_name = name(1:end-4);
     fprintf('Computing Audio:%s, Number:%d ...\n', [part_name '.wav'], i-2)
 
     mix_wav1 = audioread([mix_wav_dir part_name '.wav']);  %35328*1 double
@@ -56,7 +55,6 @@ for i = 3:len+2
     	STOI(i-2, 1) = 0;
         STOI(i-2, 2) = 0;
     	error_num_STOI = error_num_STOI + 1;
-        errors_num(error_num_STOI, 1) = i-2;
         fprintf('STOI NaN happens in computing the audio:%s, i=%d.\n', [part_name '.wav'], i-2)
     end
     
@@ -70,7 +68,6 @@ for i = 3:len+2
     	STOI(i-2, 1) = 0;
         STOI(i-2, 2) = 0;
     	error_num_ESTOI = error_num_ESTOI + 1;
-        errors_num(error_num_ESTOI, 2) = i-2;
         fprintf('ESTOI NaN happens in computing the audio:%s, i=%d.\n', [part_name '.wav'], i-2)
     end
 
@@ -82,7 +79,6 @@ for i = 3:len+2
         PESQ(i-2, 2) = 0;
         disp(ErrorInfo)
         error_num_PESQ = error_num_PESQ + 1;
-        errors_num(error_num_PESQ, 3) = i-2;
         fprintf('PESQ Error happens in computing the audio:%s, i=%d.\n', [part_name '.wav'], i-2)
     end
 end
@@ -92,11 +88,10 @@ fprintf('Model Name: %s.\n', model_name)
 fprintf('The mean SDR is %f.\n', mean(mean(SDR)))
 fprintf('The mean SAR is %f.\n', mean(mean(SAR)))
 fprintf('The mean SIR is %f.\n', mean(mean(SIR)))
-fprintf('NaN number:%d, the mean STOI is %f.\n', error_num_STOI, mean(sum(STOI)/(len - error_num_STOI)))
-fprintf('NaN number:%d, the mean ESTOI is %f.\n', error_num_ESTOI, mean(sum(ESTOI)/(len - error_num_ESTOI)))
-fprintf('Error number:%d, the mean PESQ is %f.\n', error_num_PESQ, mean(sum(PESQ)/(len - error_num_PESQ)))
+fprintf('Mean STOI is %f.\n', mean(sum(STOI)/(len - error_num_STOI)))
+fprintf('Mean ESTOI is %f.\n', mean(sum(ESTOI)/(len - error_num_ESTOI)))
+fprintf('Mean PESQ is %f.\n', mean(sum(PESQ)/(len - error_num_PESQ)))
 save(['matfiles/evaluate_' model_name], 'SDR', 'SAR', 'SIR', 'STOI', 'ESTOI', 'PESQ', 'lists');
-save(['matfiles/errors_num_' model_name], 'errors_num')
 
 time_length = toc;
 hour = floor(time_length/3600);
