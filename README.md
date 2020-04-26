@@ -19,19 +19,19 @@ The separation performance of **LSTM** are as follows:
 
 Gender Combination | SDR | SAR | SIR | STOI | ESTOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-Overall| 6.453328 | 9.372059 | 11.570311 | 0.473229 | 0.377204 | 1.653391
+Overall| 6.453328 | 9.372059 | 11.570311 | 0.473229 | 0.377204 | 1.5812
 Male & Female | 8.238905 | 9.939668 | 14.531649 | 0.488542 | 0.393999 | 1.663442
-Female & Female | 3.538810 | 8.134054 | 7.230494 | 0.459762 | 0.363213 | 1.553452
-Male & Male | 5.011563 | 9.026763 | 9.000010 | 0.456667 | 0.358757 | 1.675609
+Female & Female | 3.538810 | 8.134054 | 7.230494 | 0.459762 | 0.363213 | 1.478075
+Male & Male | 5.011563 | 9.026763 | 9.000010 | 0.456667 | 0.358757 | 1.602058
 
 The separation performance of **BLSTM** are as follows:
 
 Gender Combination | SDR | SAR | SIR | STOI | ESTOI | PESQ 
 :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-Overall| 9.177447 | 10.629142 | 16.116564 | 0.536987 | 0.429255 | 1.651099
+Overall| 9.177447 | 10.629142 | 16.116564 | 0.536987 | 0.429255 | 1.65339
 Male & Female | 10.647645 | 11.691969 | 18.203052 | 0.521656 | 0.421868 | 1.731112
-Female & Female | 7.309365 | 9.393608 | 13.355384 | 0.560099 | 0.441704 | 1.478075
-Male & Male | 7.797448 | 9.589827 | 14.198003 | 0.550071 | 0.435083 | 1.602058
+Female & Female | 7.309365 | 9.393608 | 13.355384 | 0.560099 | 0.441704 | 1.553452
+Male & Male | 7.797448 | 9.589827 | 14.198003 | 0.550071 | 0.435083 | 1.675609
 
 From above results we can see that the separation effect of mixed gender audio is better than that of the same gender and BLSTM performs better than LSTM.
 
