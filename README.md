@@ -2,8 +2,8 @@
 ```
 ====================================================================================
                 Two-speaker speech separation with BLSTM and PIT
-                   Author: Chao Peng, EECS, Peking University
-            Github: https://github.com/pchao6/LSTM_PIT_Speech_Separation
+                   Author: aishoot, EECS, Peking University
+            Github: https://github.com/aishoot/LSTM_PIT_Speech_Separation
                             Created in: June 2018
 ====================================================================================
 ```
