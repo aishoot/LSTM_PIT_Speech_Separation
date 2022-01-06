@@ -1,7 +1,4 @@
 #! /bin/bash
-# Author:
-#   Sining Sun (Northwestern Polytechnical University, China)
-#   Chao Peng, EECS, Peking University, Beijing, China.
 # This recipe is used to do NN-PIT (LSTM, DNN or  BLSTM)
 
 # Program timer with bash
